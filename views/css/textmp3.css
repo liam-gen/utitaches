@@ -1,0 +1,54 @@
+body { 
+  margin: 0;
+  padding: 20px;
+  background-color: #23272a;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+p {
+  margin-top: 200px;
+}
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+}
+.select-styled {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 8px 15px;
+}
+
+.select-options {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form-control {
+  background: #23272a;
+}
+
+.navbar a {
+  align-items: center;
+  background:  #23272a;
+}
